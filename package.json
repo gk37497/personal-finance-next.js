@@ -3,20 +3,40 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3100",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.9.11",
+    "@next/font": "^13.2.3",
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "body-scroll-lock": "4.0.0-beta.0",
+    "clsx": "^1.2.1",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "firebase": "^9.17.2",
+    "google": "link:@next/font/google",
     "next": "13.2.3",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "react-hook-form": "^7.43.5",
+    "react-merge-refs": "^2.0.1",
+    "react-select": "^5.7.0",
+    "tabbable": "^6.1.1",
+    "typescript": "4.9.5",
+    "uuid": "^9.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/body-scroll-lock": "^3.1.0",
+    "@types/uuid": "^9.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
